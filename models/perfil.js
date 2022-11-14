@@ -31,8 +31,8 @@ module.exports = (sequelize, DataTypes) => {
     direccion: DataTypes.STRING
   },{
     sequelize,
-    modelName: 'Perfil',
-    tableName: 'perfiles'
+    tableName: 'perfiles',
+    modelName: 'Perfil'
   });
 
   return Perfil;

@@ -19,6 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     permisoId: DataTypes.INTEGER
   }, {
     sequelize,
+    tableName: 'role_permisos',
     modelName: 'Role_Permiso',
   });
   return Role_Permiso;

@@ -28,6 +28,7 @@ module.exports = (sequelize, DataTypes) => {
     link: DataTypes.STRING
   }, {
     sequelize,
+    tableName: 'modulos',
     modelName: 'Modulo',
   });
   return Modulo;

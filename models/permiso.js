@@ -25,6 +25,7 @@ module.exports = (sequelize, DataTypes) => {
     descripcion: DataTypes.STRING
   }, {
     sequelize,
+    tableName: 'permisos',
     modelName: 'Permiso',
   });
   return Permiso;
